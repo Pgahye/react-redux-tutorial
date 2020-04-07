@@ -1,5 +1,5 @@
 // 액션타입 정의
-import { createAction, handleActions } from 'react-reduxs';
+import { createAction, handleActions } from 'redux-actions';
 import produce from 'immer';
 
 const CHANGE_INPUT = 'todos/CHANGE_INPUT';
